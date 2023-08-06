@@ -99,6 +99,9 @@ btnEight.grid(row = 4, column= 1, pady= 5)
 btnNine = Button(root, text="9", command=lambda: btn(9), width = 6)
 btnNine.grid(row = 4, column= 2, pady= 5)
 
+btnZero = Button(root, text="0", command=lambda: btn(0), width = 6)
+btnZero.grid(row = 5, column= 1, pady= 5)
+
 btnClear = Button(root, text="Clear", command=lambda:clear())
 btnClear.grid(row = 5, column= 0, pady= 5)
 
